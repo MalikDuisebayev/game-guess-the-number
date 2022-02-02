@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        guess the number
+    </title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+          <div class="main__inner">
+            <h1>Угадай число</h1>
+            <h4>Угадай число от 0 до 100, для этого у тебя есть 10 попыток, удачи )))</h4>
+            <form>
+              <label for="entryField">
+                Введите число:
+              </label>
+              <input type="text" id="entryField" class = 'entryField'>
+              <button type="submit" id="entrySubmit" class = 'entrySubmit'>Проверить</button>
+            </form>
+          </div>
+          <div class="params">
+            <p class = 'enteredDigits'></p>
+            <p class = 'numberOfAttempts'></p>
+            <p class = 'lastResult'></p>
+            <p class = 'lowOrHi'></p>
+          </div>
+        </div>
+      </div>
+      <script src = 'js/index.js'></script>
+    
+</body>
+</html>

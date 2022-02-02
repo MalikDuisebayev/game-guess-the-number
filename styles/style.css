@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;
+  color: #e9e3e3;
+}
+
+.main {
+  background-image: url(../images/main-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main h1,
+.main p,
+.main h4,
+.main form {
+  margin-top: 20px;
+}
+
+.main form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .entryField,
+.main .entrySubmit,
+.main .resetButton {
+  width: 100%;
+  margin-top: 20px;
+  padding: 18px 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.main .entrySubmit {
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main .entrySubmit:hover {
+  background-color: #0db3b3;
+}
+
+.main .params {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.main p {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.main .grey {
+  background-color: transparent;
+}
+
+.main .resetButton {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/*# sourceMappingURL=style.css.map */
